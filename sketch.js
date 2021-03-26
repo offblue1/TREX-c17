@@ -120,6 +120,7 @@ function draw() {
   else if (gameState === END){
     gameOver.visible = true;
     restart.visible = true;
+    trex.veloctiyY = 0;
     obstacleGroup.setVelocityXEach(0);
      cloudsGroup.setVelocityXEach(0);
     obstacleGroup.setLifetimeEach(-1);
